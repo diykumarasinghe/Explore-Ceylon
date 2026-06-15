@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #0284C7;
+  --color-deep-navy: #0F172A;
+  --color-sky-bg: #E0F2FE;
+  --color-aqua-accent: #06B6D4;
+  --color-sand-beige: #FEF3C7;
+  --color-text-gray: #475569;
+  --color-success-green: #16A34A;
+  --color-warning-orange: #F97316;
+  --color-error-red: #DC2626;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  img {
+    display: block;
+  }
+}
+
