@@ -1,46 +1,52 @@
 # 🌍 Explore Ceylon
 
-A modern full-stack Travel Management Platform designed to help travelers discover destinations, book travel packages, manage wishlists, and receive personalized recommendations across Sri Lanka.
+Explore Ceylon is a full-stack travel management web application developed using React, TypeScript, NestJS, and MongoDB Atlas. The platform enables travelers to discover destinations, explore travel packages, manage bookings, maintain wishlists, and receive personalized recommendations based on their interests.
+
+---
 
 ## 🚀 Features
 
-### 👤 Authentication & Authorization
+### 🔐 Authentication & Authorization
 
 * JWT-based Authentication
 * Secure Password Hashing with Bcrypt
-* Role-Based Access Control (Admin, Agent, Traveler)
+* Role-Based Access Control (RBAC)
+* Protected Routes & API Endpoints
 
-### 🏝️ Travel Destination Management
+### 🏝️ Destination Management
 
 * Browse Sri Lankan Destinations
-* Destination Details & Information
+* View Destination Details
 * Search and Filter Destinations
+* Destination Categorization
 
 ### 📦 Package Management
 
-* Create Travel Packages
-* Update and Manage Packages
+* Create and Manage Travel Packages
 * Package Availability Management
+* Package Search and Filtering
+* Featured Packages
 
 ### 📅 Booking Management
 
-* Create Bookings
-* Booking Status Tracking
-* Booking History
+* Create Travel Bookings
+* Track Booking Status
+* View Booking History
+* Booking Approval Workflow
 
 ### ❤️ Wishlist System
 
 * Save Favorite Packages
 * Manage Wishlist
-* Personalized Suggestions
+* Quick Access to Preferred Destinations
 
 ### ⭐ Reviews & Ratings
 
-* Submit Reviews
-* Rate Travel Experiences
-* Average Rating Calculation
+* Submit Reviews and Ratings
+* Destination Rating Aggregation
+* Verified Booking Reviews
 
-### 🤖 Recommendation Engine
+### 🤖 Personalized Recommendations
 
 * Booking-Based Recommendations
 * Wishlist-Based Recommendations
@@ -49,12 +55,12 @@ A modern full-stack Travel Management Platform designed to help travelers discov
 
 ### 💳 Payment Integration
 
-* Stripe Payment Gateway (Sandbox Environment)
-* Secure Online Payment Workflow
+* Stripe Payment Gateway Integration (Test Mode)
+* Secure Payment Workflow Simulation
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 
@@ -64,6 +70,7 @@ A modern full-stack Travel Management Platform designed to help travelers discov
 * Tailwind CSS v4
 * React Router DOM
 * Axios
+* Context API
 
 ### Backend
 
@@ -75,15 +82,23 @@ A modern full-stack Travel Management Platform designed to help travelers discov
 * Bcrypt
 * Class Validator
 
+### Database
+
+* MongoDB Atlas
+
 ---
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
 
+```text
 Frontend (React + TypeScript)
-↓
-REST API (NestJS)
-↓
-MongoDB Atlas
+            │
+            ▼
+      REST API (NestJS)
+            │
+            ▼
+      MongoDB Atlas
+```
 
 ---
 
@@ -92,28 +107,47 @@ MongoDB Atlas
 ### Traveler
 
 * Browse Destinations
-* Book Packages
+* Explore Travel Packages
+* Create Bookings
 * Manage Wishlist
-* Leave Reviews
+* Submit Reviews
 
 ### Agent
 
 * Create Packages
-* Manage Bookings
-* View Package Analytics
+* Manage Packages
+* View Package Bookings
+* Monitor Travel Activities
 
 ### Admin
 
 * Manage Users
+* Manage Destinations
 * Manage Packages
 * Monitor Bookings
 * Platform Administration
 
 ---
 
+## 📸 Screenshots
 
+### Home Page
 
+(Add Screenshot)
 
+### Destinations Page
+
+(Add Screenshot)
+
+### Packages Page
+
+(Add Screenshot)
+
+### User Dashboard
+
+(Add Screenshot)
+
+---
 
 ## ⚙️ Installation
 
@@ -122,6 +156,12 @@ MongoDB Atlas
 ```bash
 git clone https://github.com/diykumarasinghe/Explore-Ceylon.git
 cd Explore-Ceylon
+```
+
+### Install Dependencies
+
+```bash
+npm install
 ```
 
 ### Frontend
@@ -149,7 +189,9 @@ npm run start:dev
 * Email Notifications
 * PDF Reports & Receipts
 * Advanced Analytics Dashboard
-* Mobile Application
+* Tour Guide Assignment Workflow
+* Multi-Language Support
+* Enhanced Recommendation Engine
 
 ---
 
@@ -162,5 +204,3 @@ Undergraduate | BSc (Hons) in Information Technology
 Sri Lanka Institute of Information Technology (SLIIT)
 
 GitHub: https://github.com/diykumarasinghe
-
-LinkedIn: Add Your LinkedIn Profile
