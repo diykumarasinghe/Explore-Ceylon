@@ -111,25 +111,9 @@ MongoDB Atlas
 
 ---
 
-## 📸 Screenshots
 
-### Home Page
 
-(Add Screenshot)
 
-### Destination Page
-
-(Add Screenshot)
-
-### Package Details
-
-(Add Screenshot)
-
-### Dashboard
-
-(Add Screenshot)
-
----
 
 ## ⚙️ Installation
 
